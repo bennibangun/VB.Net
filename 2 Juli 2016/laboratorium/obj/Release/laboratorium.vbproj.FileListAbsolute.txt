@@ -1,0 +1,60 @@
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\laboratorium.exe
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\laboratorium.pdb
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\laboratorium.xml
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\QSS.Components.Windows.Forms.dll
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\QSS.Components.dll
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\QSS.Components.Data.dll
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\QSS.Components.Windows.Forms.pdb
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\QSS.Components.Windows.Forms.xml
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\QSS.Components.pdb
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\QSS.Components.xml
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\QSS.Components.Data.pdb
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\bin\Release\QSS.Components.Data.xml
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.data_dokter.resources
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.dokter.resources
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.master_data.resources
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.master_test.resources
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.menuutama.resources
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.Resources.resources
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.data_pasien.resources
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.penetapan_awal.resources
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.vbproj.GenerateResource.Cache
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.exe
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.xml
+C:\Users\Farhana\Documents\Visual Studio 2008\Projects\laboratorium\laboratorium\obj\Release\laboratorium.pdb
+E:\Freelance\laboratorium\laboratorium\bin\Release\laboratorium.exe.config
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.exe
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.xml
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.pdb
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.vbprojResolveAssemblyReference.cache
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.area_demografi.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.loket_pemeriksaan.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.pekerjaan.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.pendidikan.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.referensi.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.spesialisasi.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.barang_habis_pakai.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.data_barang_habis_pakai.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.data_dokter.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.data_pasien.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.data_pengirim.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.data_reagen_on_board.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.data_rujukan.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.data_supplier.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.dokter.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.status_reagen_on_board.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.kelompok.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.lab_rujukan.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.metode_pemeriksaan.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.sample.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.master_data.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.master_test.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.menuutama.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.Resources.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.pasien.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.penetapan_awal.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.pengirim.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.rujukan.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.supplier.resources
+E:\Freelance\laboratorium\laboratorium\obj\Release\laboratorium.vbproj.GenerateResource.Cache

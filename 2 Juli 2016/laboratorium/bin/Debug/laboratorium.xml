@@ -1,0 +1,824 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+laboratorium
+</name>
+</assembly>
+<members>
+<member name="P:laboratorium.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:laboratorium.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:laboratorium.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:laboratorium.My.Resources.Resources.save1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:laboratorium.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:laboratorium.DataOperations.UpdateRow(System.Data.DataRow)">
+	<summary>
+ Responsible for updating rows that have 
+ Row.RowState = Modified
+ 
+ Use the same logic as done in the add method below.
+ </summary>
+	<param name="row"></param>
+	<returns></returns>
+	<remarks>
+ Once you understand the logic in add rows you will be capable
+ to implement this method
+ </remarks>
+</member><member name="P:laboratorium.My._Dialogs.LineBreakChar">
+	<summary>
+ Defaults to Tilde, used for breaking lines in dialogs
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:laboratorium.My._Dialogs.Question(System.String)">
+	<summary>
+ Ask question with NO as the default button
+ </summary>
+	<param name="Text"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:laboratorium.My._Dialogs.Question(System.String,System.String,Microsoft.VisualBasic.MsgBoxResult)">
+	<summary>
+ Ask question
+ </summary>
+	<param name="Text">Question to ask</param>
+	<param name="Title">Text for dialog caption</param>
+	<param name="DefaultButton">Which button is the default</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:laboratorium.My._Dialogs.InformationDialog(System.String)">
+	<summary>
+ Shows text in dialog with information icon
+ </summary>
+	<param name="Text">Message to display</param>
+	<remarks></remarks>
+</member><member name="M:laboratorium.My._Dialogs.InformationDialog(System.String,System.String)">
+	<summary>
+ Shows text in dialog with information icon
+ </summary>
+	<param name="Text">Message to display</param>
+	<param name="Title"></param>
+	<remarks></remarks>
+</member><member name="M:laboratorium.My._Dialogs.ExceptionDialog(System.String)">
+	<summary>
+ For displaying error/exception text with Error icon
+ </summary>
+	<param name="Text"></param>
+	<remarks></remarks>
+</member><member name="M:laboratorium.My._Dialogs.ExceptionDialog(System.String,System.String)">
+	<summary>
+ For displaying error/exception text with Error icon
+ </summary>
+	<param name="Text"></param>
+	<param name="Title"></param>
+	<remarks></remarks>
+</member><member name="M:laboratorium.My._Dialogs.ExceptionDialog(System.Exception,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="ex"></param>
+	<param name="Text"></param>
+	<param name="Title"></param>
+	<remarks>
+	</remarks>
+</member><member name="T:laboratorium.My._Dialogs">
+	<summary>
+ Contains wrappers for common dialog operations where the intent is to keep
+ method based and easy to maintain.
+ </summary>
+	<remarks>
+ I did one Dialog using CreateLineBreaks to show that you can be
+ a tad lazy in how to create multiple lines of text in a dialog.
+ All the others could easy include this too.
+ </remarks>
+</member><member name="T:laboratorium.LabDataSet.bankDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.kabupatenDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.kecamatanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.provinsiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.spesialisasiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.bankRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.kabupatenRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.kecamatanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.provinsiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.spesialisasiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.LabDataSet.bankRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.LabDataSet.kabupatenRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.LabDataSet.kecamatanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.LabDataSet.provinsiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.LabDataSet.spesialisasiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.LabDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:laboratorium.LabDataSetTableAdapters.bankTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.LabDataSetTableAdapters.kabupatenTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.LabDataSetTableAdapters.kecamatanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.LabDataSetTableAdapters.provinsiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.LabDataSetTableAdapters.spesialisasiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:laboratorium.LabDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(laboratorium.LabDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:laboratorium.LabDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(laboratorium.LabDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:laboratorium.LabDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(laboratorium.LabDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:laboratorium.LabDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:laboratorium.LabDataSetTableAdapters.TableAdapterManager.UpdateAll(laboratorium.LabDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:laboratorium.LabDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:laboratorium.LabDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:laboratorium.LabDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.bagianDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.bankDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.hasilDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.kecamatanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.kabupatenDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.provinsiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pengirimDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.rujukanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.supplierDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.jenis_barang_habis_pakaiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.satuan_kuantitasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.satuan_isiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.barang_habis_pakaiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.dokterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pasienDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pendidikanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pekerjaanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.spesialisasiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.loket_pemeriksaanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.metode_pemeriksaanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.sampleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.lab_rujukanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.cara_bayarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.bahan_pemeriksaanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pengambilan_hasilDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.nama_reagenDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.jenis_kelompokDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.master_kelompokDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.instrumentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.reagen_on_boardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.prioritasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.nama_tabungDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.master_tabungDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.nilai_normalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.harga_pemeriksaanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.bagianRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.bankRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.hasilRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.kecamatanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.kabupatenRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.provinsiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pengirimRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.rujukanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.supplierRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.jenis_barang_habis_pakaiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.satuan_kuantitasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.satuan_isiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.barang_habis_pakaiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.dokterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pasienRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pendidikanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pekerjaanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.spesialisasiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.loket_pemeriksaanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.metode_pemeriksaanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.sampleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.lab_rujukanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.cara_bayarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.bahan_pemeriksaanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pengambilan_hasilRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.nama_reagenRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.jenis_kelompokRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.master_kelompokRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.instrumentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.reagen_on_boardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.prioritasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.nama_tabungRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.master_tabungRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.nilai_normalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.harga_pemeriksaanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.bagianRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.bankRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.hasilRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.kecamatanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.kabupatenRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.provinsiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pengirimRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.rujukanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.supplierRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.jenis_barang_habis_pakaiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.satuan_kuantitasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.satuan_isiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.barang_habis_pakaiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.dokterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pasienRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pendidikanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pekerjaanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.spesialisasiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.loket_pemeriksaanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.metode_pemeriksaanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.sampleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.lab_rujukanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.cara_bayarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.bahan_pemeriksaanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.pengambilan_hasilRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.nama_reagenRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.jenis_kelompokRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.master_kelompokRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.instrumentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.reagen_on_boardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.prioritasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.nama_tabungRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.master_tabungRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.nilai_normalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab.harga_pemeriksaanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:laboratorium.DataSet_Lab">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.bagianTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.bankTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.hasilTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.kecamatanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.kabupatenTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.provinsiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.pengirimTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.rujukanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.supplierTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.jenis_barang_habis_pakaiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.satuan_kuantitasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.satuan_isiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.barang_habis_pakaiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.dokterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.pasienTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.pendidikanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.pekerjaanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.spesialisasiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.loket_pemeriksaanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.metode_pemeriksaanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.sampleTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.lab_rujukanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.cara_bayarTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.bahan_pemeriksaanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.pengambilan_hasilTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.nama_reagenTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.jenis_kelompokTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.master_kelompokTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.instrumentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.reagen_on_boardTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.prioritasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.nama_tabungTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.master_tabungTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.nilai_normalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.harga_pemeriksaanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:laboratorium.DataSet_LabTableAdapters.TableAdapterManager.UpdateUpdatedRows(laboratorium.DataSet_Lab,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:laboratorium.DataSet_LabTableAdapters.TableAdapterManager.UpdateInsertedRows(laboratorium.DataSet_Lab,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:laboratorium.DataSet_LabTableAdapters.TableAdapterManager.UpdateDeletedRows(laboratorium.DataSet_Lab,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:laboratorium.DataSet_LabTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:laboratorium.DataSet_LabTableAdapters.TableAdapterManager.UpdateAll(laboratorium.DataSet_Lab)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:laboratorium.DataSet_LabTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
